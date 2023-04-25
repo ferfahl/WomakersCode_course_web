@@ -1,0 +1,143 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+@import url(https://fonts.google.com/specimen/Libre+Baskerville);
+
+body {
+    background-color: #232323;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 158, 255, 0.733);
+}
+
+.header {
+    width: 100%;
+    max-width: 900px;
+    padding: 8px;
+    box-sizing:border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.header__link:hover {
+    opacity: 30%;
+}
+
+.header__link:focus {
+    outline: none;
+    background-color: rgba(212, 41, 198, 0.351);
+}
+
+.icon {
+    width: 25px;
+}
+
+.icon--texto {
+    margin: 0 6px;
+}
+.main {
+   
+    width: 100%;
+    max-width: 700px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.profile {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__pic {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.profile__name {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 42px;
+    font-weight: 400;
+    color: rgba(185, 11, 219, 0.986);
+    margin: 16px 0;
+}
+
+.profile__description {
+   font-size: 16px;
+   font-weight: 400;
+   color: #e4e4e4;
+   margin: 0;
+   width: 100%;
+   max-width: 350px;
+   text-align: center;
+}
+
+.section {
+    padding: 8;
+    width: 100%;
+    max-width: 350px;
+    margin: 24px auto;
+    box-sizing: border-box;
+}
+
+.section__title {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(222, 108, 245, 0.986);
+    font-family: 'Libre Baskerville', serif;
+    margin: 16px 0;
+}
+
+.certificates {
+    background-color: rgb(117, 116, 117);
+    padding: 8px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.course__name {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(84, 9, 99, 0.986);
+    margin: 8px 0;
+}
+
+.course__description {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin: 8px 0;
+}
+
+.footer {
+   
+    width: 100%;
+    height: 42px;
+    background-color: rgb(19, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.footer__text {
+    color:  white;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
